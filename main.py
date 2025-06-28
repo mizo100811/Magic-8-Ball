@@ -24,6 +24,14 @@ def play_again():
             return True
         elif choice == "no":
             print("Thanks for playing! Goodbye!")
-            return False
+            return False 
         else:
             print("Please type 'yes or 'no'.")
+            
+def magic_8_ball():
+    print("Welcome to the magic 8 ball")
+    while True:
+        question= get_user_guess()
+        if question is None:
+            break
+        responses
